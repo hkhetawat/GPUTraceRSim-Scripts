@@ -1,0 +1,6 @@
+#!/bin/csh
+#SBATCH -N 1
+#SBATCH -t 5:00:00
+#SBATCH -p pbatch
+
+/g/g90/hkhetaw/TraceR/TraceR/bin/traceR --sync=1 -- /g/g90/hkhetaw/TraceR/TraceR/EXPERIMENTS/fattree-2-lassen-gd-2x.conf tracer_config_64 >> 2_lassen_gd_64.out 
